@@ -7,7 +7,7 @@ document.getElementById('searchStock').addEventListener('click', function() {
     }
   
     // Fetch stock information from the Finnhub API
-    fetch(`https://finnhub.io/api/v1/stock/profile2?symbol=${ticker}&token=cr2sp31r01qgsq6mtv4gcr2sp31r01qgsq6mtv50`)
+    fetch(`https://finnhub.io/api/v1/stock/profile2?symbol=${ticker}&token=cr6tf2hr01qg9ve85p30cr6tf2hr01qg9ve85p3g`)
       .then(response => response.json())
       .then(data => displayStockInfo(data))
       .catch(error => console.error('Error fetching stock information:', error));
