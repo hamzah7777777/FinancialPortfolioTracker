@@ -5,7 +5,7 @@ const axios = require('axios'); // Add axios for HTTP requests
 const app = express();
 const path = require('path');
 // Finnhub API Key
-const FINNHUB_API_KEY = 'cr2sp31r01qgsq6mtv4gcr2sp31r01qgsq6mtv50';
+const FINNHUB_API_KEY = 'cr6tf2hr01qg9ve85p30cr6tf2hr01qg9ve85p3g';
 app.use(express.json());
 app.use(cors());
 
